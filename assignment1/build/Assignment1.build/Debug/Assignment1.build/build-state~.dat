@@ -1,0 +1,108 @@
+TAssignment1
+v7
+r0
+t433467465.698352
+cCheck dependencies
+cCompileC build/Assignment1.build/Debug/Assignment1.build/Objects-normal/i386/main.o "/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000005424AB7B00000000000F71B0
+t1411689339
+s1012144
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005424A9D9000000000002C960
+t1411688921
+s182624
+
+N/Users/maxinefonua/Desktop/CS 148/assignment1/build/Assignment1.build/Debug/Assignment1.build/Objects-normal/i386/Assignment1.LinkFileList
+c000000005425F8C80000000000000079
+t1411774664
+s121
+
+N/Users/maxinefonua/Desktop/CS 148/assignment1/build/Assignment1.build/Debug/Assignment1.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/maxinefonua/Desktop/CS 148/assignment1/build/Debug/Assignment1
+t2
+s0
+
+N/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp
+c000000005414F5800000000000001A2F
+t1410659712
+s6703
+i<stdlib.h>
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies433467464#433467464#0(0"0(0#1#0"17200270848#0"0#
+
+CCompileC build/Assignment1.build/Debug/Assignment1.build/Objects-normal/i386/main.o "/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s433467464.834289
+e433467465.698277
+r0
+xCompileC
+xbuild/Assignment1.build/Debug/Assignment1.build/Objects-normal/i386/main.o
+x/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:4:23: error: GLUT/glut.h: No such file or directory
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'void display()':
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:19: error: 'GL_COLOR_BUFFER_BIT' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:19: error: 'glClear' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:20: error: 'GL_MODELVIEW' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:20: error: 'glMatrixMode' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:21: error: 'glLoadIdentity' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:25: error: 'glPointSize' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:26: error: 'glColor3f' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:27: error: 'GL_POINTS' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:27: error: 'glBegin' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:28: error: 'glVertex3f' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:29: error: 'glEnd' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:33: error: 'glLineWidth' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:35: error: 'GL_LINES' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:43: error: 'GL_TRIANGLES' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:52: error: 'GL_QUADS' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:62: error: 'GL_POLYGON' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:73: error: 'GL_TRIANGLE_STRIP' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:76: error: 'glVertex2f' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:102: error: 'glPushMatrix' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:103: error: 'glTranslatef' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:112: error: 'glRotatef' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:129: error: 'glPopMatrix' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:210: error: 'glutSwapBuffers' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'void reshape(int, int)':
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:215: error: 'GL_PROJECTION' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:215: error: 'glMatrixMode' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:216: error: 'glLoadIdentity' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:220: error: 'glOrtho' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:221: error: 'glViewport' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:226: error: 'glutPostRedisplay' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'void keyboard(unsigned char, int, int)':
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:239: error: 'glutPostRedisplay' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'int main(int, char**)':
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:249: error: 'glutInit' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:252: error: 'GLUT_RGBA' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:252: error: 'GLUT_DOUBLE' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:252: error: 'glutInitDisplayMode' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:253: error: 'glutInitWindowSize' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:255: error: 'glutCreateWindow' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:257: error: 'glutDisplayFunc' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:258: error: 'glutReshapeFunc' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:259: error: 'glutKeyboardFunc' was not declared in this scope
+o/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:261: error: 'glutMainLoop' was not declared in this scope
+lSLF07#2@62"Compile /Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp433467464#433467465#0(4991"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:4:23: error: GLUT/glut.h: No such file or directory/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'void display()':/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:19: error: 'GL_COLOR_BUFFER_BIT' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:19: error: 'glClear' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:20: error: 'GL_MODELVIEW' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:20: error: 'glMatrixMode' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:21: error: 'glLoadIdentity' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:25: error: 'glPointSize' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:26: error: 'glColor3f' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:27: error: 'GL_POINTS' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:27: error: 'glBegin' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:28: error: 'glVertex3f' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:29: error: 'glEnd' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:33: error: 'glLineWidth' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:35: error: 'GL_LINES' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:43: error: 'GL_TRIANGLES' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:52: error: 'GL_QUADS' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:62: error: 'GL_POLYGON' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:73: error: 'GL_TRIANGLE_STRIP' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:76: error: 'glVertex2f' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:102: error: 'glPushMatrix' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:103: error: 'glTranslatef' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:112: error: 'glRotatef' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:129: error: 'glPopMatrix' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:210: error: 'glutSwapBuffers' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'void reshape(int, int)':/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:215: error: 'GL_PROJECTION' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:215: error: 'glMatrixMode' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:216: error: 'glLoadIdentity' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:220: error: 'glOrtho' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:221: error: 'glViewport' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:226: error: 'glutPostRedisplay' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'void keyboard(unsigned char, int, int)':/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:239: error: 'glutPostRedisplay' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp: In function 'int main(int, char**)':/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:249: error: 'glutInit' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:252: error: 'GLUT_RGBA' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:252: error: 'GLUT_DOUBLE' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:252: error: 'glutInitDisplayMode' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:253: error: 'glutInitWindowSize' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:255: error: 'glutCreateWindow' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:257: error: 'glutDisplayFunc' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:258: error: 'glutReshapeFunc' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:259: error: 'glutKeyboardFunc' was not declared in this scope/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp:261: error: 'glutMainLoop' was not declared in this scope41(4@38"GLUT/glut.h: No such file or directory433467465#0#107#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#4#0#4#0#28"*: No such file or directory0(4@52"'GL_COLOR_BUFFER_BIT' was not declared in this scope433467465#193#119#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#19#0#19#0#34"'*' was not declared in this scope0(4@40"'glClear' was not declared in this scope433467465#312#107#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#19#0#19#0#34"'*' was not declared in this scope0(4@45"'GL_MODELVIEW' was not declared in this scope433467465#419#112#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#20#0#20#0#34"'*' was not declared in this scope0(4@45"'glMatrixMode' was not declared in this scope433467465#531#112#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#20#0#20#0#34"'*' was not declared in this scope0(4@47"'glLoadIdentity' was not declared in this scope433467465#643#114#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#21#0#21#0#34"'*' was not declared in this scope0(4@44"'glPointSize' was not declared in this scope433467465#757#111#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#25#0#25#0#34"'*' was not declared in this scope0(4@42"'glColor3f' was not declared in this scope433467465#868#109#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#26#0#26#0#34"'*' was not declared in this scope0(4@42"'GL_POINTS' was not declared in this scope433467465#977#109#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#27#0#27#0#34"'*' was not declared in this scope0(4@40"'glBegin' was not declared in this scope433467465#1086#107#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#27#0#27#0#34"'*' was not declared in this scope0(4@43"'glVertex3f' was not declared in this scope433467465#1193#110#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#28#0#28#0#34"'*' was not declared in this scope0(4@38"'glEnd' was not declared in this scope433467465#1303#105#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#29#0#29#0#34"'*' was not declared in this scope0(4@44"'glLineWidth' was not declared in this scope433467465#1408#111#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#33#0#33#0#34"'*' was not declared in this scope0(4@41"'GL_LINES' was not declared in this scope433467465#1519#108#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#35#0#35#0#34"'*' was not declared in this scope0(4@45"'GL_TRIANGLES' was not declared in this scope433467465#1627#112#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#43#0#43#0#34"'*' was not declared in this scope0(4@41"'GL_QUADS' was not declared in this scope433467465#1739#108#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#52#0#52#0#34"'*' was not declared in this scope0(4@43"'GL_POLYGON' was not declared in this scope433467465#1847#110#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#62#0#62#0#34"'*' was not declared in this scope0(4@50"'GL_TRIANGLE_STRIP' was not declared in this scope433467465#1957#117#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#73#0#73#0#34"'*' was not declared in this scope0(4@43"'glVertex2f' was not declared in this scope433467465#2074#110#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#76#0#76#0#34"'*' was not declared in this scope0(4@45"'glPushMatrix' was not declared in this scope433467465#2184#113#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#102#0#102#0#34"'*' was not declared in this scope0(4@45"'glTranslatef' was not declared in this scope433467465#2297#113#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#103#0#103#0#34"'*' was not declared in this scope0(4@42"'glRotatef' was not declared in this scope433467465#2410#110#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#112#0#112#0#34"'*' was not declared in this scope0(4@44"'glPopMatrix' was not declared in this scope433467465#2520#112#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#129#0#129#0#34"'*' was not declared in this scope0(4@48"'glutSwapBuffers' was not declared in this scope433467465#2632#116#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#210#0#210#0#34"'*' was not declared in this scope0(4@46"'GL_PROJECTION' was not declared in this scope433467465#2842#114#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#215#0#215#0#34"'*' was not declared in this scope0(4@45"'glMatrixMode' was not declared in this scope433467465#2956#113#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#215#0#215#0#34"'*' was not declared in this scope0(4@47"'glLoadIdentity' was not declared in this scope433467465#3069#115#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#216#0#216#0#34"'*' was not declared in this scope0(4@40"'glOrtho' was not declared in this scope433467465#3184#108#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#220#0#220#0#34"'*' was not declared in this scope0(4@43"'glViewport' was not declared in this scope433467465#3292#111#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#221#0#221#0#34"'*' was not declared in this scope0(4@50"'glutPostRedisplay' was not declared in this scope433467465#3403#118#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#226#0#226#0#34"'*' was not declared in this scope0(4@50"'glutPostRedisplay' was not declared in this scope433467465#3631#118#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#239#0#239#0#34"'*' was not declared in this scope0(4@41"'glutInit' was not declared in this scope433467465#3842#109#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#249#0#249#0#34"'*' was not declared in this scope0(4@42"'GLUT_RGBA' was not declared in this scope433467465#3951#110#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#252#0#252#0#34"'*' was not declared in this scope0(4@44"'GLUT_DOUBLE' was not declared in this scope433467465#4061#112#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#252#0#252#0#34"'*' was not declared in this scope0(4@52"'glutInitDisplayMode' was not declared in this scope433467465#4173#120#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#252#0#252#0#34"'*' was not declared in this scope0(4@51"'glutInitWindowSize' was not declared in this scope433467465#4293#119#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#253#0#253#0#34"'*' was not declared in this scope0(4@49"'glutCreateWindow' was not declared in this scope433467465#4412#117#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#255#0#255#0#34"'*' was not declared in this scope0(4@48"'glutDisplayFunc' was not declared in this scope433467465#4529#116#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#257#0#257#0#34"'*' was not declared in this scope0(4@48"'glutReshapeFunc' was not declared in this scope433467465#4645#116#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#258#0#258#0#34"'*' was not declared in this scope0(4@49"'glutKeyboardFunc' was not declared in this scope433467465#4761#117#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#259#0#259#0#34"'*' was not declared in this scope0(4@45"'glutMainLoop' was not declared in this scope433467465#4878#113#0(6@54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp432352512#261#0#261#0#34"'*' was not declared in this scope0(0#0#54"/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp17184342528#962"    cd "/Users/maxinefonua/Desktop/CS 148/assignment1"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Users/maxinefonua/Desktop/CS 148/assignment1/build/Assignment1.build/Debug/Assignment1.build/Assignment1.hmap" "-F/Users/maxinefonua/Desktop/CS 148/assignment1/build/Debug" "-I/Users/maxinefonua/Desktop/CS 148/assignment1/build/Debug/include" "-I/Users/maxinefonua/Desktop/CS 148/assignment1/build/Assignment1.build/Debug/Assignment1.build/DerivedSources/i386" "-I/Users/maxinefonua/Desktop/CS 148/assignment1/build/Assignment1.build/Debug/Assignment1.build/DerivedSources" -c "/Users/maxinefonua/Desktop/CS 148/assignment1/main.cpp" -o "/Users/maxinefonua/Desktop/CS 148/assignment1/build/Assignment1.build/Debug/Assignment1.build/Objects-normal/i386/main.o"1#
+
+CLd "/Users/maxinefonua/Desktop/CS 148/assignment1/build/Debug/Assignment1" normal i386
+r0
+
